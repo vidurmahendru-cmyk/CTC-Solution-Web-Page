@@ -20,13 +20,13 @@ export default function Home() {
             
             <AnimatedSection delay={0.1}>
               <h1 className="font-headline font-extrabold text-5xl lg:text-7xl leading-[1.1] text-on-background mb-8 tracking-tight">
-                Enterprise Excellence with <span className="text-primary gradient-text">CTC Solutions</span>
+                Inspire Markets. <br /><span className="text-primary gradient-text">Empower Businesses.</span>
               </h1>
             </AnimatedSection>
             
             <AnimatedSection delay={0.2}>
               <p className="text-secondary text-lg lg:text-xl mb-10 max-w-2xl leading-relaxed">
-                Impose architectural order on your global enterprise. Our ERP ecosystem integrates disparate data streams into a singular, high-precision source of truth for modern business leaders.
+                CTC Solutions delivers flexible, scalable, and integrated ERP software tailored for Retail, Distribution, and Manufacturing businesses. We empower thousands of customers nationwide to overcome operational challenges and drive strategic growth.
               </p>
             </AnimatedSection>
             
@@ -101,8 +101,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <AnimatedSection>
             <div className="max-w-3xl mb-20">
-              <h2 className="font-headline text-3xl md:text-5xl font-bold text-on-background mb-6 tracking-tight">Core Infrastructure Modules</h2>
-              <p className="text-secondary text-lg">Every module is designed with editorial precision, ensuring data is not just stored, but intelligently organized for immediate decision-making.</p>
+              <h2 className="font-headline text-3xl md:text-5xl font-bold text-on-background mb-6 tracking-tight">CTC Solutions ERP Suite</h2>
+              <p className="text-secondary text-lg">A portfolio of vertical-specific and module-specific applications designed to overcome operational challenges, analyze metrics, and support corporate adaptability.</p>
             </div>
           </AnimatedSection>
           
@@ -110,11 +110,11 @@ export default function Home() {
             <AnimatedSection delay={0.1}>
               <div className="bg-surface-container-lowest p-8 rounded-xl border border-transparent hover:border-outline-variant/30 hover:shadow-xl transition-all duration-300 group h-full flex flex-col cursor-pointer card-hover">
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                  <span className="material-symbols-outlined text-3xl">account_balance</span>
+                  <span className="material-symbols-outlined text-3xl">storefront</span>
                 </div>
-                <h3 className="font-headline text-2xl font-bold mb-4">Financial Management</h3>
+                <h3 className="font-headline text-2xl font-bold mb-4">Retail &amp; Storefronts</h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-8 flex-grow">
-                  Automate complex ledgers, global consolidations, and multi-currency transactions with millisecond accuracy and full compliance audit trails.
+                  Bridge the gap between physical stores and corporate headquarters. Ensure seamless real-time access to business data, pricing accuracy, and stock across multiple touchpoints.
                 </p>
                 <Link href="/solutions" className="text-primary font-bold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all group/link">
                   Explore Module <span className="material-symbols-outlined material-icons-fill text-sm transition-transform group-hover/link:translate-x-1">chevron_right</span>
@@ -125,11 +125,11 @@ export default function Home() {
             <AnimatedSection delay={0.2}>
               <div className="bg-surface-container-lowest p-8 rounded-xl border border-transparent hover:border-outline-variant/30 hover:shadow-xl transition-all duration-300 group h-full flex flex-col cursor-pointer card-hover">
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                  <span className="material-symbols-outlined text-3xl">inventory_2</span>
+                  <span className="material-symbols-outlined text-3xl">local_shipping</span>
                 </div>
-                <h3 className="font-headline text-2xl font-bold mb-4">Supply Chain Management</h3>
+                <h3 className="font-headline text-2xl font-bold mb-4">Distribution &amp; Supply Chain</h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-8 flex-grow">
-                  Gain real-time visibility across your entire value chain. Predict disruptions and optimize inventory through AI-driven architectural forecasting.
+                  Manage channels, suppliers, and transport streams with a robust, vertical-specific architecture designed for small and large distribution businesses.
                 </p>
                 <Link href="/solutions" className="text-primary font-bold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all group/link">
                   Explore Module <span className="material-symbols-outlined material-icons-fill text-sm transition-transform group-hover/link:translate-x-1">chevron_right</span>
@@ -140,11 +140,11 @@ export default function Home() {
             <AnimatedSection delay={0.3}>
               <div className="bg-surface-container-lowest p-8 rounded-xl border border-transparent hover:border-outline-variant/30 hover:shadow-xl transition-all duration-300 group h-full flex flex-col cursor-pointer card-hover">
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                  <span className="material-symbols-outlined text-3xl">groups</span>
+                  <span className="material-symbols-outlined text-3xl">precision_manufacturing</span>
                 </div>
-                <h3 className="font-headline text-2xl font-bold mb-4">Human Resources</h3>
+                <h3 className="font-headline text-2xl font-bold mb-4">Manufacturing Systems</h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-8 flex-grow">
-                  Scale your workforce with centralized talent management, payroll automation, and strategic workforce planning modules built for global scale.
+                  Drive maximum efficiency and profitability with specialized production scheduling, material lists, and deep operational performance metrics.
                 </p>
                 <Link href="/solutions" className="text-primary font-bold text-sm inline-flex items-center gap-1 hover:gap-2 transition-all group/link">
                   Explore Module <span className="material-symbols-outlined material-icons-fill text-sm transition-transform group-hover/link:translate-x-1">chevron_right</span>
@@ -163,10 +163,10 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-black/10 rounded-full -ml-64 -mb-64 blur-3xl animate-pulse" style={{ animationDuration: '6s' }}></div>
             
             <h2 className="font-headline text-4xl md:text-5xl font-extrabold mb-8 relative z-10 leading-tight">
-              Transform Your Enterprise Architecture Today
+              Transform Your Business Operations Today
             </h2>
             <p className="text-on-primary-container text-lg md:text-xl mb-12 max-w-2xl mx-auto relative z-10 font-body">
-              Join the world's most efficient organizations. Deploy CTC Solutions and replace chaos with high-precision architectural order.
+              Join thousands of growing retail, distribution, and manufacturing companies. Deploy CTC Solutions and replace challenges with high-precision growth.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center gap-6 relative z-10">

@@ -7,7 +7,6 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { href: "/solutions", label: "Solutions" },
   { href: "/about", label: "About Us" },
-  { href: "#resources", label: "Resources" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -27,11 +26,10 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
           ? "bg-white/90 backdrop-blur-xl shadow-lg border-b border-outline-variant/20"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
@@ -53,15 +51,13 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`relative text-sm font-semibold tracking-tight font-body group transition-colors duration-200 ${
-                  active ? "text-primary" : "text-secondary hover:text-primary"
-                }`}
+                className={`relative text-sm font-semibold tracking-tight font-body group transition-colors duration-200 ${active ? "text-primary" : "text-secondary hover:text-primary"
+                  }`}
               >
                 {link.label}
                 <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-primary rounded-full transition-all duration-300 ${
-                    active ? "w-full" : "w-0 group-hover:w-full"
-                  }`}
+                  className={`absolute -bottom-1 left-0 h-0.5 bg-primary rounded-full transition-all duration-300 ${active ? "w-full" : "w-0 group-hover:w-full"
+                    }`}
                 />
               </Link>
             );

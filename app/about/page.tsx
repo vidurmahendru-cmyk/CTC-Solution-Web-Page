@@ -11,33 +11,33 @@ export default function About() {
           <div className="lg:col-span-7 z-10">
             <AnimatedSection>
               <span className="inline-block px-4 py-1.5 mb-6 text-primary font-bold tracking-widest text-[10px] uppercase bg-primary-fixed rounded-full shadow-sm">
-                Established 2012
+                Over 35 Years of Excellence
               </span>
             </AnimatedSection>
-            
+
             <AnimatedSection delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-headline font-extrabold text-on-background tracking-tighter leading-none mb-8">
-                Engineering the <br/><span className="text-primary gradient-text">Enterprise Ledger.</span>
+                Over Three Decades of <br /><span className="text-primary gradient-text">ERP Expertise.</span>
               </h1>
             </AnimatedSection>
-            
+
             <AnimatedSection delay={0.2}>
               <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed mb-10">
-                At CTC Solutions, we don{"'"}t just build software. We architect the frameworks that sustain global commerce through precision, transparency, and relentless innovation.
+                With over 35 years of expertise, CTC Solutions has earned a reputation for delivering best-in-class ERP solutions, fostering trust among our clients and partners, and driving collective success.
               </p>
             </AnimatedSection>
           </div>
-          
+
           <div className="lg:col-span-5 relative">
             <AnimatedSection delay={0.3} direction="left">
               <div className="aspect-square bg-surface-container-low rounded-xl overflow-hidden relative shadow-2xl card-hover animate-float">
-                <Image 
-                  alt="Modern architectural glass building reflecting a clear blue sky" 
+                <Image
+                  alt="Modern architectural glass building reflecting a clear blue sky"
                   className="w-full h-full object-cover"
                   width={800}
                   height={800}
                   unoptimized
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdzHb-2h1swwLn_9a1a0ZBaBt6IvprOKgmT2wgD5yWJRYDcMcQCL5X5IOuU_5vnimpGaXUFJFZ4_90zzQ6dRdhXTHcOzbJFI11y2I5F66fV5Nxp2FnKcQ6cfv9vRn2bJqbW_X99D6ZM0Xs2C2A07zlwAFnPNQBaqnF0P26ZB2c1UgFKwFSBuJifCiXBhOR11TRZJXk0MNS1HHG4WiWG2k0DKeJ3l4sNW3jtpbe36-zqwaqWZ9E0xvDU8_qqGYPNGXgOokRk0yHgcGN" 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdzHb-2h1swwLn_9a1a0ZBaBt6IvprOKgmT2wgD5yWJRYDcMcQCL5X5IOuU_5vnimpGaXUFJFZ4_90zzQ6dRdhXTHcOzbJFI11y2I5F66fV5Nxp2FnKcQ6cfv9vRn2bJqbW_X99D6ZM0Xs2C2A07zlwAFnPNQBaqnF0P26ZB2c1UgFKwFSBuJifCiXBhOR11TRZJXk0MNS1HHG4WiWG2k0DKeJ3l4sNW3jtpbe36-zqwaqWZ9E0xvDU8_qqGYPNGXgOokRk0yHgcGN"
                 />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
               </div>
@@ -54,19 +54,25 @@ export default function About() {
             <AnimatedSection>
               <div className="space-y-8 h-full bg-surface-container-lowest p-10 rounded-2xl shadow-sm border border-outline-variant/10">
                 <div className="w-16 h-1.5 architectural-gradient rounded-full"></div>
-                <h2 className="text-4xl font-headline font-bold text-on-background tracking-tight">Our Mission</h2>
-                <p className="text-lg text-on-surface-variant leading-loose">
-                  To empower enterprise organizations with a unified digital nervous system. We strive to eliminate systemic friction through intelligent automation, ensuring that data moves with the speed and reliability of a modern electric grid.
+                <h2 className="text-4xl font-headline font-bold text-on-background tracking-tight">Our Core Mission</h2>
+                <p className="text-base text-on-surface-variant leading-relaxed">
+                  At CTC Solutions, we specialize in delivering integrated ERP software tailored for Retail, Distribution, and Manufacturing businesses. Over the years, we have empowered thousands of customers—from small companies to large enterprises—to achieve their business goals with our flexible and scalable ERP solutions, designed to support growth and adaptability in an ever-evolving market.
+                </p>
+                <p className="text-base text-on-surface-variant leading-relaxed">
+                  Our cost-effective, industry-specific solutions help businesses of all sizes overcome operational challenges, analyze performance metrics, and make strategic decisions with confidence. Instead of a generic, one-size-fits-all approach, our portfolio includes industry-specific, vertical-specific, and module-specific ERP applications under our CTC Solutions ERP suite.
                 </p>
               </div>
             </AnimatedSection>
-            
+
             <AnimatedSection delay={0.2}>
               <div className="space-y-8 h-full bg-surface-container-lowest p-10 rounded-2xl shadow-sm border border-outline-variant/10 lg:mt-12">
                 <div className="w-16 h-1.5 architectural-gradient rounded-full"></div>
-                <h2 className="text-4xl font-headline font-bold text-on-background tracking-tight">Our Vision</h2>
-                <p className="text-lg text-on-surface-variant leading-loose">
-                  We envision a future where operational complexity is a relic of the past. CTC Solutions aims to be the global standard for enterprise resource planning, fostering a world where businesses operate with absolute clarity and infinite scalability.
+                <h2 className="text-4xl font-headline font-bold text-on-background tracking-tight">Global Infrastructure</h2>
+                <p className="text-base text-on-surface-variant leading-relaxed">
+                  Headquartered in Chandigarh, we maintain a robust operational infrastructure with branch offices and trusted partners across all major metropolitan cities in India. Backed by a team of highly skilled professionals, our systems bridge the gap between stores and headquarters, ensuring seamless access to real-time business data across multiple touchpoints.
+                </p>
+                <p className="text-base text-on-surface-variant leading-relaxed">
+                  From 2024 onwards, with the addition of Vidur Mahendru, CTC Solutions has strategically expanded its services to North America. This growth allows us to provide comprehensive IT solutions, including data entry, bookkeeping, software solutions for retail shops and industries, and advanced accounting solutions, ensuring efficiency, accuracy, and seamless operations.
                 </p>
               </div>
             </AnimatedSection>
@@ -83,7 +89,7 @@ export default function About() {
               <p className="text-lg text-on-surface-variant">The architectural pillars of our corporate identity.</p>
             </div>
           </AnimatedSection>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <AnimatedSection delay={0.1}>
               <div className="bg-surface-container-lowest p-10 rounded-2xl shadow-sm border border-outline-variant/20 hover:shadow-xl transition-all duration-300 card-hover h-full">
@@ -96,7 +102,7 @@ export default function About() {
                 </p>
               </div>
             </AnimatedSection>
-            
+
             <AnimatedSection delay={0.2}>
               <div className="bg-surface-container-lowest p-10 rounded-2xl shadow-sm border border-outline-variant/20 hover:shadow-xl transition-all duration-300 card-hover h-full">
                 <div className="w-16 h-16 rounded-xl bg-surface-container text-primary flex items-center justify-center mb-8">
@@ -108,7 +114,7 @@ export default function About() {
                 </p>
               </div>
             </AnimatedSection>
-            
+
             <AnimatedSection delay={0.3}>
               <div className="bg-surface-container-lowest p-10 rounded-2xl shadow-sm border border-outline-variant/20 hover:shadow-xl transition-all duration-300 card-hover h-full">
                 <div className="w-16 h-16 rounded-xl bg-surface-container text-primary flex items-center justify-center mb-8">
@@ -136,35 +142,38 @@ export default function About() {
               <div className="h-px flex-1 bg-outline-variant/30 mx-8 hidden md:block mb-4"></div>
             </div>
           </AnimatedSection>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Marcus Thorne",
-                role: "Chief Executive Officer",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAejQEtUmHTvNz6odhP0QOU_xj0iZ1NC8_fF9-LYtv9zhkIoIoxwdareUZJLgahwfQgxbc0D43qHED5uDJQRlMT0P5dVuDdm5OJ6a5iORL4-zIEBYlXJYsyFkbQWH1WaCyXfEX2sXRFyTUjSQApeA4T2KSQrsXUBO6tArgrzhgCZkQB5zNTQ2kH7ah8VraQm88Goz5AExahjMvFg6-QSubTTzfHBZLsppHZdzmOzqa5pTkdICmdTOjSnREGzTcwa8VW2WsfDlj21HP3"
+                name: "Sanjeev Kumar",
+                role: "Founder & CEO",
+                img: "/images/sanjeev.jpg",
+                bio: "Founded the company 35 years ago. With an illustrious career spanning four decades, he leads with a deep understanding of business operations and an unwavering passion for technology-driven systems."
               },
               {
-                name: "Dr. Elena Rodriguez",
+                name: "Vidur Mahendru",
+                role: "Director of Operations",
+                img: "/images/vidur.jpg",
+                bio: "Accomplished business leader with a strong background in data analysis, SQL, sales operations, and advanced analytics. Holds an MBA in Business Analytics from Hofstra University, New York."
+              },
+              {
+                name: "Dheeraj Kumar",
                 role: "Chief Technology Officer",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCaalQTRv5NIfUjgxSt0Ubq8uATiR0WiZhfZlS0Vc5EWhAgQQZWcSJBirzyCb7wg8NjD30GYlc2QZNQHmn-iF4TIDQm4laE2Mr2QLZthDMl_i_uX_RUdfMg9FWNgoH_-5bL1k-JANQRx1oV82QNwxouenQVb3IG-4uxIi2gcg0KhQ_z2oDfDOfs6ZV6HD2di8TO-KZMVrxIJK7r8wm08YyRM7Ma9IXc8rH1FgYOgfwdwmzW9C8tUQTvPQhU1WNgttbcXtUlOf1muEAP"
-              },
-              {
-                name: "Julian Vane",
-                role: "Head of Global Operations",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCwU0EhgLiydBg1gaoAF60ygOtCnYgCRChOVVaTQpafV8p5qxsFZ4debabgilnKILYW9BKyJqRcpHzHo0-_vpAj73JEAo2JVOYaJAHJUOVjnl-fNjrFl4uKmDb5m3uokRdVcUnCEmquREkgghV10acM5a-uRQYtQmppLJeKOyqdRsbmPHNhBV2IVTky0K5U-aR7aUd7XSz5D2ZuwQB4PDrIbPV-tqaMpSGm9W1hG7xHWBxpTQgK0liQZ5M-viEo0UBC2TVFSgVykNiC"
-              },
-              {
-                name: "Sarah Jenkins",
-                role: "VP of Client Success",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2e_uWwN5wHRvV2F0_pIIkJSEPv9M96GFIPX31bysxgzpN5G-MEcuCZLkOl65iRBUKqhO98glQsu9osR2z7rR5bs6P3FoSLRX4PHngNujiV6UtXWL5YtIFSr_tS8qxWL7_Rmovg9LIfbdDglyK7IMmkDjkx55jxbSA6QUNi5zrLkczu1rYQwSpWJxoYO9m2eB9ayY-lgxnXYkSzztyV_ikISEazVUJYCwdZ7N1f6B7PjCi_7CEJiieemGTwkpV6A9EGtqju94dex8t"
+                img: "/images/dheeraj.jpg",
+                bio: "Spearheads our technical vision. Develops integrated ERP applications and store-to-headquarters data infrastructures that guarantee operational continuity and real-time connectivity."
               }
+              // {
+              //   name: "Sarah Jenkins",
+              //   role: "VP of Client Success",
+              //   img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2e_uWwN5wHRvV2F0_pIIkJSEPv9M96GFIPX31bysxgzpN5G-MEcuCZLkOl65iRBUKqhO98glQsu9osR2z7rR5bs6P3FoSLRX4PHngNujiV6UtXWL5YtIFSr_tS8qxWL7_Rmovg9LIfbdDglyK7IMmkDjkx55jxbSA6QUNi5zrLkczu1rYQwSpWJxoYO9m2eB9ayY-lgxnXYkSzztyV_ikISEazVUJYCwdZ7N1f6B7PjCi_7CEJiieemGTwkpV6A9EGtqju94dex8t"
+              // }
             ].map((leader, idx) => (
               <AnimatedSection key={leader.name} delay={idx * 0.1}>
                 <div className="group cursor-pointer">
                   <div className="aspect-[4/5] bg-surface-container mb-6 rounded-2xl overflow-hidden relative border border-outline-variant/20 shadow-sm card-hover">
-                    <Image 
-                      alt={`Portrait of ${leader.name}`} 
+                    <Image
+                      alt={`Portrait of ${leader.name}`}
                       className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-[0.25,0.46,0.45,0.94]"
                       width={400}
                       height={500}
@@ -175,6 +184,7 @@ export default function About() {
                   </div>
                   <h4 className="text-xl font-headline font-bold text-on-background">{leader.name}</h4>
                   <p className="text-sm font-semibold tracking-tight gradient-text">{leader.role}</p>
+                  <p className="text-xs text-on-surface-variant mt-3 leading-relaxed border-t border-outline-variant/20 pt-3">{leader.bio}</p>
                 </div>
               </AnimatedSection>
             ))}
