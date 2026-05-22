@@ -1,5 +1,6 @@
 import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
+import LeaderCard from "@/components/LeaderCard";
 
 export default function About() {
   return (
@@ -169,24 +170,7 @@ export default function About() {
               //   img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2e_uWwN5wHRvV2F0_pIIkJSEPv9M96GFIPX31bysxgzpN5G-MEcuCZLkOl65iRBUKqhO98glQsu9osR2z7rR5bs6P3FoSLRX4PHngNujiV6UtXWL5YtIFSr_tS8qxWL7_Rmovg9LIfbdDglyK7IMmkDjkx55jxbSA6QUNi5zrLkczu1rYQwSpWJxoYO9m2eB9ayY-lgxnXYkSzztyV_ikISEazVUJYCwdZ7N1f6B7PjCi_7CEJiieemGTwkpV6A9EGtqju94dex8t"
               // }
             ].map((leader, idx) => (
-              <AnimatedSection key={leader.name} delay={idx * 0.1}>
-                <div className="group cursor-pointer">
-                  <div className="aspect-[4/5] bg-surface-container mb-6 rounded-2xl overflow-hidden relative border border-outline-variant/20 shadow-sm card-hover">
-                    <Image
-                      alt={`Portrait of ${leader.name}`}
-                      className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-[0.25,0.46,0.45,0.94]"
-                      width={400}
-                      height={500}
-                      unoptimized
-                      src={leader.img}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  </div>
-                  <h4 className="text-xl font-headline font-bold text-on-background">{leader.name}</h4>
-                  <p className="text-sm font-semibold tracking-tight gradient-text">{leader.role}</p>
-                  <p className="text-xs text-on-surface-variant mt-3 leading-relaxed border-t border-outline-variant/20 pt-3">{leader.bio}</p>
-                </div>
-              </AnimatedSection>
+              <LeaderCard key={leader.name} leader={leader} idx={idx} />
             ))}
           </div>
         </div>
